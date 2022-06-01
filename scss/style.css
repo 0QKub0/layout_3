@@ -1,0 +1,82 @@
+@import url("nullstyle.css");
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Lato:wght@300&display=swap");
+body {
+  font-family: 'Koulen', cursive;
+  font-family: 'Lato', sans-serif;
+}
+
+.about__body {
+  max-width: 823px;
+  margin: 0px auto;
+}
+
+.about__header {
+  margin: 0px 0px 69px 0px;
+}
+
+.about__text {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #868585;
+  width: 500px;
+  position: relative;
+  left: 20%;
+}
+
+.about__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 35px;
+}
+
+.about__column {
+  padding: 0px 25px;
+  -webkit-box-flex: 0px;
+      -ms-flex: 0px 0px 33.333%;
+          flex: 0px 0px 33.333%;
+}
+
+.title {
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  position: relative;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+
+.item-about__title {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: #000000;
+  text-align: center;
+  margin: 21px 0px 12px 0px;
+}
+
+.item-about__text {
+  color: #868585;
+  text-align: center;
+  line-height: 20px;
+}
+
+.item-about__icon {
+  margin: 0px auto;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: 1px solid #868585;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
